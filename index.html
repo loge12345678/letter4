@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="envelope-wrapper">
+        <div class="envelope">
+          <div class="letter">
+            <div class="text">
+              <strong>Dear Minh Hằng.</strong>
+              <p>
+                Chào em pé cụa anh, em nhủ dạy ngonn honggg, tối qua anh quên
+                gửiii trước, anh chin nhũii nhenn nay 20/10 anh chúc em lunn
+                xinhh đẹp và dễ thươngg hơn, và luôn yêu thương bản thân mình
+                nhiều hơn nựaaa nhann.yêu!!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="heart"></div>
+      </div>
+    </div>
+    <script>
+      const envelope = document.querySelector(".envelope-wrapper");
+      envelope.addEventListener("click", () => {
+        envelope.classList.toggle("flap");
+      });
+    </script>
+  </body>
+</html>
